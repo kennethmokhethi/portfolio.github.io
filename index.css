@@ -1,15 +1,14 @@
+
 body{
- background:rgb(54, 38, 38);
-};
-
-
+  /* background-image:url(imgs/img1.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 h1{
    color:red;
 };
 
-.img {
-
-  height: 100;
-  width: 100;
-}
+/* img{
+  width: 100vw;  
+} */
