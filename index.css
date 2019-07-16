@@ -1,14 +1,35 @@
+/* Overwriting the default margin and setting it to zero */
+*{
+  padding:0;
+  margin:0;
+}
+
+
 
 body{
   /* background-image:url(imgs/img1.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: .8;
 }
 
-h1{
-   color:red;
-};
 
-/* img{
-  width: 100vw;  
-} */
+.mainHeading{
+  position: relative;
+  width:100%;
+  margin-top:-40%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#homeImg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .8;
+}
+
+nav{
+  position :relative;
+  width:100%;
+ 
+
+}
