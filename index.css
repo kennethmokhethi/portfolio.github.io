@@ -5,25 +5,36 @@
 }
 
 body{
-  
+  background-image: url("imgs/img2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
   
 }
 
-.headerSection{
-  background-color:rgb(226, 102, 19);
+.navList{
+  float:right;
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+ul li{
+  float :left;
+  background-color:coral;
+  opacity:0.9;
+  width: 100px;
+  height:40px;
+  line-height: 40px;
+  font-size:20px;
+}
+
+ul li a{
+  text-decoration: none;
+  display:block;
   
 }
 
-header::after{
-  content: "";
-  display: table;
-  clear: both;
+ul li a:hover{
+  background-color: green;
 }
-
-nav{
-  float:left;
-}
-
