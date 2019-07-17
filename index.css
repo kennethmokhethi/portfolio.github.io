@@ -1,14 +1,27 @@
-
+*{
+  margin:0;
+  padding:0;
+}
 body{
-  /* background-image:url(imgs/img1.jpg); */
+  
   background-repeat: no-repeat;
   background-size: cover;
+
+  
 }
 
-h1{
-   color:red;
-};
+.headerSection{
+  background-color:rgb(226, 102, 19);
+  
+}
 
-/* img{
-  width: 100vw;  
-} */
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav{
+  float:left;
+}
+
