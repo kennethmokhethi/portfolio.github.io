@@ -42,3 +42,10 @@ ul li a:hover{
   opacity:0.9;
  
 }
+
+ p{
+  position:relative;
+  text-align: center;
+  font-family: pacifica,calibri;
+ 
+}
