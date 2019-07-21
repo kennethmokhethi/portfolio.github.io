@@ -117,10 +117,26 @@ section .headingSub{
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+  opacity: 0.9;
 }
 
 /* Changing the color of the text of the hyperlink to github */
 section .hyperlinkGithub{
   color:coral;
   text-align: center;
+}
+
+
+section .mCss{
+ width: 16%;
+ height:50%;
+}
+
+section .ProLogos{
+float:right;
+background: rgb(243, 227, 227);
+}
+
+section .contacts{
+  background:coral;
 }
