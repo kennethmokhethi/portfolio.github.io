@@ -17,10 +17,10 @@
     <nav>
       <ul>
 
-        <li><a href="aboutMe">About Me </a></li>
-        <li><a href="/otherHtmlPages/myWork.html">My Work </a></li>
-        <li><a href="/otherHtmlPages/skills.html">Skills </a></li>
-        <li><a href="/otherHtmlPages/contact.html">Contacts </a></li>
+        <li><a href="#aboutMe">About Me </a></li>
+        <li><a href="#myWork">My Work </a></li>
+        <li><a href="#mySkilss">Skills </a></li>
+        <li><a href="#sContacts">Contacts </a></li>
 
       </ul>
     </nav>
@@ -36,7 +36,7 @@
   <section>
     <!-- About me section -->
     <div class="sectionDiv">
-      <div class="aboutMe">
+      <div id="aboutMe">
         <h1 class="primaryHeading2">
           <span class="heading">About Me</span>
           <span class="headingSub">I have one year experience with .NET framework and six <br>
@@ -48,16 +48,20 @@
       </div>
 
       <!--My work section  -->
-      <div class="aboutMe">
-        <h1 class="heading">My Work</h1>
-        <img class="gitlogo" src="imgs/logos/img3.png" alt="Git hub logo">
-        <h1 class="hyperlinkGithub"><a href="https://github.com/kennethmokhethi/">Visit my github account to see my
-            work</a></h1>
+      <div id="myWork">
+        <div class="aboutMe">
+          <h1 class="heading">My Work</h1>
+          <img class="gitlogo" src="imgs/logos/img3.png" alt="Git hub logo">
+          <h1 class="hyperlinkGithub"><a href="https://github.com/kennethmokhethi/">Visit my github account to see my
+              work</a></h1>
+
+        </div>
 
       </div>
 
+
       <!-- Skills section -->
-      <div class="mySkills">
+      <div id="mySkills">
         <h1 class="heading">Skills</h1>
         <div class="ProLogos">
           <img src="imgs/logos/html.png">
@@ -70,17 +74,18 @@
       </div>
     </div>
 
-    <div class="contacts">
-       <h1 class="heading">Contacts</h1>
+    <div id="sContacts">
+      <div class="contacts">
+        <h1 class="heading">Contacts</h1>
+        <h3 class="emailadress">kennethmahlatsemokhethi@gmail.com </h3>
 
+        <img class="gmaillogo" src="imgs/logos/gmail.jpg">
+
+      </div>
 
     </div>
 
-
   </section>
-
-
-
 
 </body>
 

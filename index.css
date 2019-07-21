@@ -22,7 +22,10 @@ header{
   position:relative;
   
 }
-
+nav{
+  position:sticky;
+  top:0;
+}
 /* Navigation properties */
 nav ul{
  
@@ -48,7 +51,8 @@ nav ul li{
 /* Links of the unordered list inside the navigation bar  */
 nav ul li a{
   text-decoration: none;
-  display:block;;
+  display:block;
+  font-weight:bold;
   
 }
 
@@ -91,9 +95,6 @@ nav ul li a:hover{
   margin-right:-1.75rem;
 }
 
-
-
- 
   
 
 .sectionDiv{
@@ -135,8 +136,19 @@ section .mCss{
 section .ProLogos{
 float:right;
 background: rgb(243, 227, 227);
+padding:2rem;
 }
 
 section .contacts{
   background:coral;
 }
+
+
+
+section .gmaillogo{
+  width:16%;
+ 
+}
+ section .emailadress{
+   font-size:2rem;
+ }
