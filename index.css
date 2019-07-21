@@ -92,16 +92,35 @@ nav ul li a:hover{
 }
 
 
-.aboutMe{
-  background: silver;
-  opacity:0.8;
+
+ 
+  
+
+.sectionDiv{
+  font-family:"Lato",Arial,sans-serif;
+  background: rgb(243, 227, 227);
 }
 section .heading{
   text-align: center;
+  text-decoration: underline;
 }
 
 section .headingSub{
   text-align: center;
   font-size:2rem;
   font-weight:400; 
+}
+
+/* Aligning the git logo to the centre */
+.gitlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+/* Changing the color of the text of the hyperlink to github */
+section .hyperlinkGithub{
+  color:coral;
+  text-align: center;
 }
