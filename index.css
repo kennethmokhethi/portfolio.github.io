@@ -1,25 +1,39 @@
 
+/* Importinh the lato font */
+@import "https://fonts.googleapis.com/css?family=Lato|Open+Sans";
+
+/* Initials the margin and padding to zero */
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 
-body{
-  background-image: url("imgs/img2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+html{
+  font-size:10px;
+}
 
+header{
+  width:100%;
+  height: 95vh;
+  font-family:"Lato",Arial,sans-serif;
+  background:url("imgs/img2.jpg") center no-repeat;
+  background-size:cover;
+  position:relative;
   
 }
 
-.navList{
+/* Navigation properties */
+nav ul{
+ 
   float:right;
   list-style: none;
   padding:0;
   margin:5px 5px 0 0;
 }
 
-ul li{
+/* Unordered list that is inside the navigation bar */
+nav ul li{
   float :left;
   background-color:coral;
   opacity:0.9;
@@ -31,21 +45,48 @@ ul li{
   text-align: center;
 }
 
-ul li a{
+/* Links of the unordered list inside the navigation bar  */
+nav ul li a{
   text-decoration: none;
-  display:block;
+  display:block;;
   
 }
 
-ul li a:hover{
+nav ul li a:hover{
   background-color:grey;
   opacity:0.9;
  
 }
 
- p{
-  position:relative;
-  text-align: center;
-  font-family: pacifica,calibri;
- 
+/* Text area properties */
+.textArea{
+  position:absolute;
+  top:45%;
+  left:45%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  font-size:1rem;
+}
+
+/* Common property of the heading and sub heading which inside the text area */
+.primaryHeading{
+  margin-bottom:6rem;
+}
+
+/* Primary heading which is inside the text area */
+.heading{
+  display:block;
+  font-size:6rem;
+  font-weight: 800;
+  letter-spacing: 1.5rem;
+   margin-right:-3.5rem;
+   color: darkslateblue
+}
+
+/* Sub heading which is inside the text area */
+.headingSub{
+  display:block;
+   font-weight: 200;
+  letter-spacing: 0.5rem;
+  margin-right:-1.75rem;
 }
