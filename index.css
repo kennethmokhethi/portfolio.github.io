@@ -61,8 +61,8 @@ nav ul li a:hover{
 /* Text area properties */
 .textArea{
   position:absolute;
-  top:45%;
-  left:45%;
+  top:60%;
+  left:49%;
   transform:translate(-50%,-50%);
   text-align:center;
   font-size:1rem;
@@ -89,4 +89,19 @@ nav ul li a:hover{
    font-weight: 200;
   letter-spacing: 0.5rem;
   margin-right:-1.75rem;
+}
+
+
+.aboutMe{
+  background: silver;
+  opacity:0.8;
+}
+section .heading{
+  text-align: center;
+}
+
+section .headingSub{
+  text-align: center;
+  font-size:2rem;
+  font-weight:400; 
 }
