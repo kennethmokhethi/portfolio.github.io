@@ -3,28 +3,39 @@
 <html>
 
 <head>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kenneth Mahlatse Mokhethi</title>
   <!-- Linking the file together -->
   <link rel="stylesheet" type="text/css" href="index.css">
-  <script src="index.js"></script>
+  <script src="index.js" type="text/javascript"></script>
+ 
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" 
+  rel="stylesheet" >
+ 
 </head>
 
 <body>
+  <!-- Nav sectiobn -->
+    <nav id="NavSec">
+        <div class="toggle">
+          <div class="menu"><i class="fa fa-bars " aria-hidden="true"></i></div>
+        </div>
+        
+        <ul>
+          <li><a href="#aboutMe">About Me </a></li>
+          <li><a href="#myWork">My Work </a></li>
+          <li><a href="#mySkilss">Skills </a></li>
+          <li><a href="#sContacts">Contacts </a></li>
+
+        </ul>
+      </nav>
   <!-- Header section -->
 
   <header>
-    <nav>
-      <ul>
-
-        <li><a href="#aboutMe">About Me </a></li>
-        <li><a href="#myWork">My Work </a></li>
-        <li><a href="#mySkilss">Skills </a></li>
-        <li><a href="#sContacts">Contacts </a></li>
-
-      </ul>
-    </nav>
-
+   
+  
     <div class="textArea">
       <h1 class="primaryHeading">
         <span class="heading">Kenneth Mahlatse Mokhethi.</span>
@@ -32,6 +43,8 @@
       </h1>
     </div>
   </header>
+
+
 
   <section>
     <!-- About me section -->
@@ -86,7 +99,20 @@
     </div>
 
   </section>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+  
+$(document).ready(function(){
+  $('.menu').click(function(){
+   $('ul').toggleClass('active');
+  })
 
+
+})
+  
+  
+  </script>
+ 
 </body>
 
 </html>

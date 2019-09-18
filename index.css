@@ -3,42 +3,46 @@
 @import "https://fonts.googleapis.com/css?family=Lato|Open+Sans";
 
 /* Initials the margin and padding to zero */
-*{
+/* *{
   margin:0;
   padding:0;
   box-sizing: border-box;
-}
+} */
 
-html{
+/* html{
   font-size:10px;
-}
+} */
 
 header{
   width:100%;
   height: 95vh;
   font-family:"Lato",Arial,sans-serif;
-  background:url("imgs/img2.jpg") center no-repeat;
+  /* background:url("imgs/img2.jpg") center no-repeat; */
   background-size:cover;
   position:relative;
   
 }
 nav{
-  position:sticky;
+  /* position:sticky; */
   top:0;
+  background-color:coral;
+  width:100%;
 }
 /* Navigation properties */
 nav ul{
  
-  float:right;
-  list-style: none;
+  /* float:right; */
+  
   padding:0;
-  margin:5px 5px 0 0;
+  margin:0 auto;
+  width:80%;
 }
 
 /* Unordered list that is inside the navigation bar */
 nav ul li{
-  float :left;
-  background-color:coral;
+  list-style: none;
+  /* float :left; */
+  padding:20px;
   opacity:0.9;
   width: 100px;
   height:40px;
@@ -46,25 +50,73 @@ nav ul li{
   font-size:20px;
   margin-right: 2px;
   text-align: center;
+  display:inline-block;
 }
 
+nav ul li :hover{
+  background:grey;
+  opacity:0.9;
+ 
+}
 /* Links of the unordered list inside the navigation bar  */
 nav ul li a{
-  text-decoration: none;
-  display:block;
+  text-decoration: none; 
   font-weight:bold;
   
 }
 
-nav ul li a:hover{
+/* Mobile toggle bar */
+.toggle
+{
+  width: 100%;
+  padding: 10px 20px;
+  background: rgb(255, 235, 192);
+  text-align: right;
+  box-sizing: border-box;
+  color: darkslateblue;
+  font-size:30px;
+  display:none;
+
+}
+
+@media(max-width:768px)
+{
+  .toggle{
+    display :block;
+  }
+
+  nav ul{
+
+    width:100%;
+    display:none;
+   }
+  
+  nav ul li{
+  display :block;
+  text-align:centre;
+  
+  }
+
+  .active
+  {
+    display:block;
+  }
+
+
+}
+ 
+
+
+
+/* nav ul li a:hover{
   background-color:grey;
   opacity:0.9;
  
-}
+} */
 
 /* Text area properties */
 .textArea{
-  position:absolute;
+  position: absolute;
   top:60%;
   left:49%;
   transform:translate(-50%,-50%);
