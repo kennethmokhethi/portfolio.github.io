@@ -3,11 +3,12 @@
 @import "https://fonts.googleapis.com/css?family=Lato|Open+Sans";
 
 /* Initials the margin and padding to zero */
-/* *{
+ *{
   margin:0;
   padding:0;
-  box-sizing: border-box;
-} */
+  
+  /* box-sizing: border-box; */
+} 
 
 /* html{
   font-size:10px;
@@ -17,7 +18,7 @@ header{
   width:100%;
   height: 95vh;
   font-family:"Lato",Arial,sans-serif;
-  /* background:url("imgs/img2.jpg") center no-repeat; */
+  background:url("imgs/img2.jpg") center no-repeat;
   background-size:cover;
   position:relative;
   
@@ -27,13 +28,15 @@ nav{
   top:0;
   background-color:coral;
   width:100%;
+
+  
 }
 /* Navigation properties */
 nav ul{
  
   /* float:right; */
   
-  padding:0;
+  padding:0 50%;
   margin:0 auto;
   width:80%;
 }
@@ -42,20 +45,23 @@ nav ul{
 nav ul li{
   list-style: none;
   /* float :left; */
-  padding:20px;
+  padding:10px;
   opacity:0.9;
   width: 100px;
   height:40px;
   line-height: 40px;
   font-size:20px;
   margin-right: 2px;
+  
   text-align: center;
   display:inline-block;
 }
 
-nav ul li :hover{
+nav ul :hover{
   background:grey;
   opacity:0.9;
+  
+
  
 }
 /* Links of the unordered list inside the navigation bar  */
@@ -79,6 +85,7 @@ nav ul li a{
 
 }
 
+/*Display the mobile bar toggle when screen sixe length less than 768 */
 @media(max-width:768px)
 {
   .toggle{
@@ -106,14 +113,6 @@ nav ul li a{
 }
  
 
-
-
-/* nav ul li a:hover{
-  background-color:grey;
-  opacity:0.9;
- 
-} */
-
 /* Text area properties */
 .textArea{
   position: absolute;
@@ -132,7 +131,7 @@ nav ul li a{
 /* Primary heading which is inside the text area */
 .heading{
   display:block;
-  font-size:6rem;
+  font-size:3rem;
   font-weight: 800;
   letter-spacing: 1.5rem;
    margin-right:-3.5rem;
@@ -143,7 +142,7 @@ nav ul li a{
 .headingSub{
   display:block;
    font-weight: 200;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
   margin-right:-1.75rem;
 }
 
