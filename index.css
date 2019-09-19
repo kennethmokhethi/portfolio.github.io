@@ -6,6 +6,8 @@
  *{
   margin:0;
   padding:0;
+  width:auto;
+  
   
   /* box-sizing: border-box; */
 } 
@@ -13,6 +15,7 @@
 /* html{
   font-size:10px;
 } */
+
 
 header{
   width:100%;
@@ -24,7 +27,7 @@ header{
   
 }
 nav{
-  /* position:sticky; */
+  
   top:0;
   background-color:coral;
   width:100%;
@@ -33,12 +36,12 @@ nav{
 }
 /* Navigation properties */
 nav ul{
- 
-  /* float:right; */
+  position:sticky;
+
   
   padding:0 50%;
   margin:0 auto;
-  width:80%;
+  
 }
 
 /* Unordered list that is inside the navigation bar */
@@ -55,6 +58,7 @@ nav ul li{
   
   text-align: center;
   display:inline-block;
+
 }
 
 nav ul :hover{
@@ -131,9 +135,9 @@ nav ul li a{
 /* Primary heading which is inside the text area */
 .heading{
   display:block;
-  font-size:3rem;
+  font-size:200%;
   font-weight: 800;
-  letter-spacing: 1.5rem;
+  letter-spacing: 1rem;
    margin-right:-3.5rem;
    color: darkslateblue
 }
@@ -144,9 +148,10 @@ nav ul li a{
    font-weight: 200;
   letter-spacing: 0.3rem;
   margin-right:-1.75rem;
+ 
 }
 
-  
+
 
 .sectionDiv{
   font-family:"Lato",Arial,sans-serif;
@@ -161,6 +166,7 @@ section .headingSub{
   text-align: center;
   font-size:2rem;
   font-weight:400; 
+  /* text-decoration: underline; */
 }
 
 /* Aligning the git logo to the centre */
@@ -168,38 +174,24 @@ section .headingSub{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 35%;
   opacity: 0.9;
 }
 
 /* Changing the color of the text of the hyperlink to github */
-section .hyperlinkGithub{
-  color:coral;
-  text-align: center;
-}
 
-
-section .mCss{
- width: 16%;
- height:50%;
-}
-
-section .ProLogos{
-float:right;
-background: rgb(243, 227, 227);
-padding:2rem;
-}
-
-section .contacts{
-  background:coral;
-}
-
-
-
-section .gmaillogo{
-  width:16%;
+ #cssGrid
+ {
+   width:90%;
+   display:grid;
  
-}
- section .emailadress{
-   font-size:2rem;
+   grid-template-columns: 100px 100px 100px;
+   margin :0 auto;
+
+ }
+
+ .item
+ {
+ padding:10px;
+
  }
