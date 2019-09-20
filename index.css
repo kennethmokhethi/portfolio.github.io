@@ -206,3 +206,17 @@ section .headingSub{
  padding:10px;
 
  }
+
+ .wrapper
+ {
+   text-emphasis: 14;
+  text-align:centre;
+  border:5px black;
+  display: inline-block;
+  background-color:silver;
+  opacity:0.7;
+  width:50%;
+  top:40%;
+  margin:4% 20%;
+
+ }
