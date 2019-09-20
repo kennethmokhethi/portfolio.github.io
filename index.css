@@ -30,17 +30,17 @@ nav{
   
   top:0;
   background-color:coral;
-  width:100%;
+  opacity:0.8;
 
   
 }
 /* Navigation properties */
 nav ul{
   position:sticky;
-
+  text-align: right;
   
-  padding:0 50%;
-  margin:0 auto;
+  padding:0;
+  margin:0;
   
 }
 
