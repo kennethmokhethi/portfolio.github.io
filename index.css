@@ -57,7 +57,7 @@ nav ul li{
 }
 
 nav ul :hover{
-  background:grey;
+  background:red;
   opacity:0.9;
   
 
@@ -150,7 +150,7 @@ nav ul li a{
 /* Sub heading which is inside the text area */
 .headingSub{
   display:block;
-   font-weight: 200;
+   font-weight: 800;
   letter-spacing: 0.3rem;
   margin-right:-1.75rem;
  
@@ -169,8 +169,10 @@ section .heading{
 
 section .headingSub{
   text-align: center;
-  font-size:2rem;
-  font-weight:400; 
+  font-size:1.2rem;
+  font-weight:100; 
+  width:70%;
+  margin:4% 15%
   /* text-decoration: underline; */
 }
 
@@ -186,7 +188,9 @@ section .headingSub{
 
 .aboutMeDiv {
   font-family:"Lato",Arial,sans-serif;
-  background: rgb(243, 227, 227);
+  background-color: coral;
+  padding:0;
+  margin:0;
 
 }
 /* Changing the color of the text of the hyperlink to github */
@@ -207,16 +211,171 @@ section .headingSub{
 
  }
 
+ .primaryHeading2
+ {
+  
+  width:95%;
+  
+ }
  .wrapper
  {
+   /* position: relative; */
    text-emphasis: 14;
   text-align:centre;
   border:5px black;
   display: inline-block;
-  background-color:silver;
+  border-radius: 10%;
   opacity:0.7;
-  width:50%;
-  top:40%;
-  margin:4% 20%;
+  background-color:silver;
+  height:100%;
+  top:45%;
+  margin:4% 15%;
 
  }
+
+ .myWork
+ {
+   top:50%;
+
+ }
+
+.imagesDiv
+{
+ text-align:center;
+}
+
+.imageSize
+{
+
+  width:10%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  height:15%;
+  text-align: center;
+}
+
+form{
+  margin:10% auto;
+  width:30%;
+}
+
+input{
+  padding:3%;
+  text-align: center;
+  font-size: inherit;
+  width:110%;
+}
+textarea
+{
+  width:116.9%;
+}
+
+.contactBtn
+{
+  width:116.9%;
+  border:1px solid #3498db;
+  background:none;
+  padding:10px 20px;
+  font-size:20px;
+  font-family:"monstserrat";
+  cursor:pointer;
+  margin:10px;
+  
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.homeButtom
+{
+  width:10%;
+  border:1px solid #3498db;
+  background:none;
+  padding:10px 20px;
+  font-size:20px;
+  font-family:"monstserrat";
+  cursor:pointer;
+  margin:10px;
+  
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn1
+{
+  color:#3498db;
+  /* font-weight: bold; */
+}
+
+.btn1:hover 
+{
+  color:#fff;
+}
+
+.contactBtn::before 
+{
+  content:"";
+  position:absolute;
+  left:0;
+  width:180%;
+  height:0%;
+  background:#3498db;
+  z-index:-1;
+  transition:0.8s;
+  
+}
+
+.btn1::before 
+{
+  top:0;
+  border-radius:0 0 50% 50%;
+}
+
+.btn1:hover::before 
+{
+  height:180%;
+}
+
+/* Home button */
+.hb{
+  color:#3498db;
+}
+ .hb:hover
+ {
+  color:#fff;
+ }
+
+ .homeButtom::before
+ {
+  content:"";
+  position:absolute;
+  left:0;
+  width:180%;
+  height:0%;
+  background:#3498db;
+  z-index:-1;
+  transition:0.8s;
+   
+ }
+ 
+ .hb::before
+{
+  top:0;
+  border-radius:0 0 50% 50%;
+}
+.hb:hover::before
+{
+  height:180%;
+}
+
+.imageFooter
+{
+  width:15%;
+}
