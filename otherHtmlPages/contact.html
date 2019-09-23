@@ -1,40 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <title>Contacts</title>
-    <link rel="Stylesheet" type="text/css" href="../index.css">
-</head>
+    <link rel="Stylesheet" type="text/css" href="../index.css" />
+  </head>
 
-<body class="aboutMeDiv">
-        
+  <body class="aboutMeDiv">
+    <section>
+      <a href="../index.html">
+        <button onlick="bHome()" class="homeButtom hb">Home</button>
+      </a>
+      <div class="wrapper ">
+        <h1 class="primaryHeading2">
+          <span class="heading">Contacts</span>
+        </h1>
+        <form>
+          <input type="text" placeholder="Firstname" />
+          <input type="text" placeholder="Lastname" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Messages"
+          ></textarea>
 
-        <section >
-                <a href="../index.html"> <button onlick="bHome()" class="homeButtom hb">Home</button> </a>
-            <div class="wrapper ">
-                <h1 class="primaryHeading2">
-                    <span class="heading">Contacts</span>
-                 </h1>
-                 <form >
-                     <input type="text" placeholder="Firstname">
-                     <input type="text" placeholder="Lastname">
-                     <textarea name="" id="" cols="30" rows="10" placeholder="Messages"></textarea>
+          <button class="contactBtn btn1">Send</button>
+        </form>
+      </div>
+    </section>
 
-                     <button class="contactBtn btn1">Send</button>
-
-                 </form>
-            </div>
-        </section>
-
-        <div class="footer">                  
-            <ul class="footerList">
-                <li><p><img class="imFooter" src="../imgs/logos/lGmail.png" alt="VB logo">Kennethmahlatsemokhethi@gmail.com </p></li>
-                <li><p><img class="imFooter" src="../imgs/logos/lGithub.png" alt="VB logo">Click icon to be redirected to my Github </p></li>
-            </ul>
-                
-        </div>
-    
-</body>
-
+    <div class="footer">
+      <ul class="footerList">
+        <li>
+          <p>
+            <img
+              class="imFooter"
+              src="../imgs/logos/lGmail.png"
+              alt="VB logo"
+            />Kennethmahlatsemokhethi@gmail.com
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="https://github.com/kennethmokhethi/">
+              <img
+                class="imFooter"
+                src="../imgs/logos/lGithub.png"
+                alt="VB logo"
+              />
+            </a>
+            Click icon to be redirected to my Github
+          </p>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
