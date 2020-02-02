@@ -18,7 +18,7 @@ header {
 }
 nav {
   top: 0;
-  background-color: coral;
+  background-color: rgba(255, 187, 0, 0.822);
   opacity: 0.8;
 }
 /* Navigation properties */
@@ -187,7 +187,7 @@ section .headingSub {
   display: inline-block;
   border-radius: 10%;
   opacity: 0.7;
-  background-color: silver;
+  /* background-color: silver; */
   height: 100%;
   top: 45%;
   margin: 4% 15%;
@@ -272,8 +272,4 @@ textarea {
 
 .btn1:hover::before {
   height: 180%;
-}
-
-.imageFooter {
-  width: 15%;
 }
