@@ -119,6 +119,7 @@ nav ul li a {
   letter-spacing: 1rem;
   margin-right: -3.5rem;
   color: darkslateblue;
+  top:20%;
 }
 
 /* Sub heading which is inside the text area */
@@ -140,7 +141,7 @@ section .heading {
 
 section .headingSub {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 0.1rem;
   font-weight: 100;
   width: 70%;
   margin: 4% 15%;
@@ -179,19 +180,27 @@ section .headingSub {
 .primaryHeading2 {
   width: 95%;
 }
+
 .wrapper {
-  /* position: relative; */
   text-emphasis: 14;
   text-align: centre;
   border: 5px black;
   display: inline-block;
   border-radius: 10%;
   opacity: 0.7;
-  /* background-color: silver; */
   height: 100%;
   top: 45%;
   margin: 4% 15%;
 }
+
+.wrapper-wrapper{
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  top:20%;
+}
+
+
 
 .myWork {
   top: 50%;
