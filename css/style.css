@@ -1150,15 +1150,16 @@ ul.portfolio-image li .desc {
 .socials li {
   display: inline-block;
   list-style: outside none none;
-  float: left;
+  /* float: left; */
   overflow: hidden;
-  width: 33.33333%;
+  /* width: 33.33333%; */
+  width: 100%;
   font-size: 13px;
 }
 
 .socials a {
   padding: 0.3em 0.8em;
-  color: rgba(255, 255, 255, 0.7);
+  color: black;
   position: relative;
   display: inline-block;
   letter-spacing: 1px;
@@ -1181,6 +1182,7 @@ ul.portfolio-image li .desc {
   height: 3px;
   width: 100%;
   content: "";
+ 
 }
 
 .socials a:after {
@@ -1195,10 +1197,10 @@ ul.portfolio-image li .desc {
   padding: 25px 0;
 }
 
-.socials li:hover a,
+/* .socials li:hover a,
 .socials .current a {
   transform: translateY(100%);
-}
+} */
 
 .facebook {
   background: #969696;
@@ -1207,10 +1209,11 @@ ul.portfolio-image li .desc {
 .facebook a:after {
   background-color: #527bbb;
 }
-.twitter {
-  background: #ababab;
+.linkedin {
+  background-color: #77ccf1;
+  
 }
-.twitter a:after {
+.linkedin a:after {
   background-color: #77ccf1;
 }
 .gplus {
